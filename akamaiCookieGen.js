@@ -8,7 +8,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin())
 //API 4 webhooks
 const fetch = require('node-fetch')
-//Akamai stuff (i <3 u musicbot) :p
+//Akamai stuff
 const ghostCursor = require('ghost-cursor')
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -19,8 +19,8 @@ var jsonWebhooks = require('./jsonData/webhooks.json')
 //cookie jar :p
 var jsonCookieJar = require('./jsonData/theCookieJar.json')
 
-//dont jam up memory damnit
-var targeturl = 'https://footlocker.com/'
+//dont jam up memory, predef your vars damnit
+var targeturl = 'https://footlocker.com/' //put whatever site, i need to make this a dynamic api
 var cookies = ''
 var sensorData = ''
 
@@ -66,7 +66,7 @@ function post2webhook(jsonmsg) {
   });
 }
 
-//thank u musicbot!!! :p
+//thank u musicbot!!!
 async function akamaisensor(link, page){
   console.log('Faking Out Akamai...');
   //make sure to update cookie value with "await page.setCookie()"
@@ -128,7 +128,6 @@ async function bake(notifications){
     console.log('Cookies:')
     console.log(cookies)
 
-    //yessir we cookin
     return cookies
     page.close()
     browser.close()
