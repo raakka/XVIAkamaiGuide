@@ -72,10 +72,12 @@ async function akamaisensor(link, page){
   //make sure to update cookie value with "await page.setCookie()"
   const sensor_data = await page.evaluate((link) => {
         history.pushState({}, null, link);
+        //updates mouse clicks/pos
         bmak.cma(MouseEvent, 1);
         bmak.cdma(DeviceMotionEvent);
         bmak.aj_type = 1;
         bmak.aj_index = 2;
+        //updates bmak.sensor_data
         bmak.bpd();
         return bmak.sensor_data;
       }, link)
@@ -100,11 +102,8 @@ async function bake(notifications){
 
     const cursor = ghostCursor.createCursor(page)
 
-    // TY MUSICBOT!!!!!!! MUSICBOT IS THE GOAT!!!!!!!!!!!!!!!!! I <3 MUSICBOT!!!!
-    // GO BUY MELOD, FAST, GOOOOOOOOOOOOOOO!!!!!!!!!
     setInterval(async function(){
       try{
-
           try{
             await cursor.move('/html/body')
           }catch(e){};
@@ -135,9 +134,3 @@ async function bake(notifications){
     browser.close()
   })
 }
-
-/*
-for (i=0;i<4;i++){
-  bake(true)
-}
-*/
