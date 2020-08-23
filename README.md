@@ -4,3 +4,8 @@
 
 ## Documentation
 - idk ill list the docs later lol
+
+## Usage
+```bash
+npm i something
+```
