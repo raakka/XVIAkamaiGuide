@@ -19,7 +19,7 @@ function makeGen(x, y, n, indx){
     await page.setViewport({ width: x, height: y });
     await page.goto(`file://${__dirname}/sensorgen.html`, { waitUntil: 'networkidle2' });
     const cursor = await ghostCursor.createCursor(page);
-    for (var i = 0; i < x; i++) {
+    for (var i = 0; i < n; i++) {
       await makeData(page, cursor, indx);
       await page.reload({ waitUntil: 'networkidle2' });
     }
@@ -48,7 +48,7 @@ async function makeData(page, cursor, indx){
 
 async function getSensor(page, indx){
   //we send bmak comands to the console
-  const sensor_data = await page.evaluate(() => {
+  const sensor_data = await page.evaluate((indx) => {
     //sends motion events to bmak
     bmak.cma(MouseEvent, 1);
     bmak.cdma(DeviceMotionEvent);
@@ -65,5 +65,5 @@ async function getSensor(page, indx){
   console.log(sensor_data);
 }
 
-//here we ask for 3 bmak.sensor_data values @1920x1080
-makeGen(1920,1080,3);
+//here we ask for 3 bmak.sensor_data with index 1 and window size @1920x1080
+makeGen(1920,1080,3,1);
