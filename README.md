@@ -1,5 +1,7 @@
 <h1>XVI Akamai Guide 🍪</h1>
 
+![akamai](https://img.shields.io/badge/Akamai-1.63-green)
+![xvi](https://img.shields.io/badge/By-XVI_Raakka-purple)
 #### Hello fellow wanna-be terms of service violators! This is a repo to help you better understand the Akamai antibot system...
 
 ## Documentation
