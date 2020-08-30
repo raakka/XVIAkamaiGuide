@@ -1,0 +1,25 @@
+{
+  "name": "xviakamaiapi",
+  "version": "1.0.0",
+  "description": "akamai cookie generator",
+  "main": "sensordatagen.js",
+  "scripts": {
+    "start": "node sensordatagen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XVI-Solutions/XVIAkamaiAPI.git"
+  },
+  "author": "XVI",
+  "license": "NOT LICENSED",
+  "bugs": {
+    "url": "https://github.com/XVI-Solutions/XVIAkamaiAPI/issues"
+  },
+  "homepage": "https://github.com/XVI-Solutions/XVIAkamaiAPI#readme",
+  "dependencies": {
+    "ghost-cursor": "^1.0.3",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.1"
+  }
+}
