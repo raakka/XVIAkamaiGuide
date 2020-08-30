@@ -5,7 +5,7 @@
 #### Hello fellow wanna-be terms of service violators! This is a repo to help you better understand the Akamai antibot system...
 
 ## Documentation
-**XVIAkamaiv3.pdf**
+[CLICK HERE BEFORE YOU DO ANYTHING!](https://github.com/raakka/XVIAkamaiGuide/blob/master/XVIAkamaiv3.pdf)
 
 ## Usage
 #### Npm
