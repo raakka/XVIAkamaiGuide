@@ -3,6 +3,7 @@
 ![akamai](https://img.shields.io/badge/Akamai-1.63-green)
 ![xvi](https://img.shields.io/badge/By-XVI_Raakka-purple)
 #### Hello fellow wanna-be terms of service violators! This is a repo to help you better understand the Akamai antibot system...
+If there is something I did wrong or you think something could be improved, pull request I would love to update this!
 
 ## Documentation
 [CLICK HERE BEFORE YOU DO ANYTHING!](https://github.com/raakka/XVIAkamaiGuide/blob/master/XVIAkamaiv3.pdf)
