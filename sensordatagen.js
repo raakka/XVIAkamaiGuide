@@ -1,13 +1,11 @@
 //Written by @XVI
 //XVIsolutions Akamai API
 
-//const request = require('request')
 const express = require('express')
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin())
 const ghostCursor = require('ghost-cursor')
-//const fetch = require("node-fetch")
 
 ////////////////////////////////////////////////////////////////////////////////
 //variables
@@ -82,4 +80,4 @@ async function getSensor(page, indx){
 }
 
 //here we ask for 1 bmak.sensor_data with index 1 and window size @1920x1080 @footlocker
-makeSensor("https://footlocker.com", 1920, 1080, 1, 2);
+makeSensor("https://footlocker.com", 1920, 1080, 1, 1);
