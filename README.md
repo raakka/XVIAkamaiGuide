@@ -5,7 +5,7 @@
 #### Hello fellow wanna-be terms of service violators! This is a repo to help you better understand the Akamai antibot system...
 If there is something I did wrong or you think something could be improved, pull request I would love to update this!
 
-**Note:** *This is not a "FREE UNBANNED AKAMAI GENERATOR!!!11!!1"* It is learning resource that happens to have a generator that I feel best demonstrates the concepts included in the pdf.*
+**Note:** *This is not a "FREE UNBANNED AKAMAI GENERATOR!!!11!!1" It is learning resource that happens to have a generator that I feel best demonstrates the concepts included in the pdf.*
 
 ## Documentation (Updated When I Feel Like Doing So...)
 [CLICK HERE BEFORE YOU DO ANYTHING!](https://github.com/raakka/XVIAkamaiGuide/blob/master/XVIAkamaiv3.pdf)
