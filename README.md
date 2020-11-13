@@ -11,6 +11,7 @@ If there is something I did wrong or you think something could be improved, pull
 
 ## Documentation (Updated When I Feel Like Doing So...)
 [CLICK HERE BEFORE YOU DO ANYTHING!](https://github.com/raakka/XVIAkamaiGuide/blob/master/XVIAkamaiv3.pdf)
+<p>Check out the blog post I wrote about some of this <a href=https://xvi.cool/blog-posts/starting-akamai-p1>here!</a></p>
 
 ## Usage
 #### Npm
