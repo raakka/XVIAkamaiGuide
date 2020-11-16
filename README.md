@@ -16,7 +16,7 @@ If there is something I did wrong or you think something could be improved, pull
 ## Usage
 #### Npm
 ```bash
-npm i puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+npm i puppeteer puppeteer-extra puppeteer-extra-plugin-stealth express
 npm i ghost-cursor
 ```
 
